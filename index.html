@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Application</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(168, 158, 158);
+    }
+
+    .conversion {
+        padding: 5px;
+        background-color: rgb(201, 241, 241);
+        border-radius: 8px;
+    }
+
+    .cel_far,
+    .kg_pnds,
+    .ft_cm {
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <div class="conversion">
+        <div class="cel_far">
+            <form action="#">
+                <label for="cel_far">Input the value in Celsius to get convert to Farenhite</label>
+                <input id="cel_far" type="number">
+                <button class="btn_cel">Submit</button>
+                <p class="ans_1"></p>
+            </form>
+        </div>
+        <div class="kg_pnds">
+            <form action="#">
+                <label for="kg_pnds">Input the value in Kilograms to get convert to Pounds</label>
+                <input id="kg_pnds" type="number">
+                <button class="btn_kg">Submit</button>
+                <p class="ans_2"></p>
+            </form>
+        </div>
+        <div class="ft_cm">
+            <form action="#">
+                <label for="ft_cm">Input the value in Feet to get convert to Centimeter</label>
+                <input id="ft_cm" type="number">
+                <button class="btn_ft">Submit</button>
+                <p class="ans_3"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
